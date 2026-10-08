@@ -74,6 +74,6 @@ A interface foi desenvolvida para funcionar em diferentes tamanhos de tela, incl
 
 ## 📸 Demonstração
 
-O projeto pode ser publicado gratuitamente através do **GitHub Pages**.
+O projeto pode ser acessado através do **GitHub Pages**: https://fabioserafim333.github.io/clima_tempo/.
 
 > Projeto desenvolvido para fins de estudo e portfólio.
