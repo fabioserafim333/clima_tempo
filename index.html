@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaTempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>🌤️ ClimaTempo</h1>
+            <p>Consulte a previsão do tempo da sua cidade</p>
+        </header>
+
+        <section class="search-box">
+            <input 
+                type="text" 
+                id="cidadeInput" 
+                placeholder="Digite uma cidade..."
+                autocomplete="off"
+            >
+
+            <button id="buscarBtn">
+                Buscar
+            </button>
+        </section>
+
+        <p id="mensagem" class="mensagem"></p>
+
+        <section id="clima" class="clima hidden">
+
+            <div class="cidade">
+                <h2 id="cidadeNome">São Paulo</h2>
+                <p id="dataAtual"></p>
+            </div>
+
+            <div class="temperatura">
+                <span id="iconeClima">☀️</span>
+
+                <div>
+                    <strong id="temperaturaAtual">25°C</strong>
+                    <p id="condicao">Céu limpo</p>
+                </div>
+            </div>
+
+            <div class="detalhes">
+
+                <div class="detalhe">
+                    <span>🌡️</span>
+                    <div>
+                        <small>Máxima</small>
+                        <strong id="maxima">--°C</strong>
+                    </div>
+                </div>
+
+                <div class="detalhe">
+                    <span>🌡️</span>
+                    <div>
+                        <small>Mínima</small>
+                        <strong id="minima">--°C</strong>
+                    </div>
+                </div>
+
+                <div class="detalhe">
+                    <span>💧</span>
+                    <div>
+                        <small>Umidade</small>
+                        <strong id="umidade">--%</strong>
+                    </div>
+                </div>
+
+                <div class="detalhe">
+                    <span>💨</span>
+                    <div>
+                        <small>Vento</small>
+                        <strong id="vento">-- km/h</strong>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3>Previsão dos próximos dias</h3>
+
+            <div id="previsao" class="previsao"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido com HTML, CSS e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
